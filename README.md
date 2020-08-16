@@ -1,11 +1,11 @@
 ## Playbook de Taller 2020
 
 
-## Webservers y HAProxy
+## Repositorio.
 
 En este repositorio encontraras los playbooks necesarios para poder montar 2 servidores Apache (Centos o Ubuntu) y un servidor que funcionara como Proxy Reverso y balanceador de carga
 
-Se separan en 2 Playbooks diferentes (WEBSERVERS Y HAPROXY) para poder tener más opciones de modificación
+Se separan en 2 Playbooks diferentes servers-apache.yaml y haproxy.yaml los cuales tienen un rol cada uno que se llaman (WEBSERVERS Y HAPROXY) para poder tener más opciones de modificación.
 
 ## Requerimientos
 
