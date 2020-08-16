@@ -21,6 +21,7 @@
   service:
     name: haproxy
     state: started
+    enabled: yes
 
 - name: Abrir puertos http y https
   firewalld:
@@ -31,6 +32,7 @@
     - http
     - https
   notify: Reinciar el firewall
+  when: ansible_os_family == "RedHat"
 
 - name: Permitir puertos 80, 443 y 22 en Ubuntu
   ufw:
